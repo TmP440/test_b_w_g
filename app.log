@@ -1,0 +1,485 @@
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f83379f0a60>
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для BTCUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для BTCRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHUSDT: 'Redis' object has no attribute 'wait_closed'
+ERROR:__main__:Ошибка при обновлении цены для ETHRUB: 'Redis' object has no attribute 'wait_closed'
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f31cc0e8a60>
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7fa33a798af0>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7fa33a77b340>, 18688.225422514)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7fa33a798b50>
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f5ffe658ac0>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f5ffe63f2e0>, 18722.33589706)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f5ffe658b20>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:__main__:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+INFO:__main__:111231231
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f99d6938ac0>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f99d691f2e0>, 18978.006184531)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f99d6938b20>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f753c260cd0>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f753c23f340>, 759.726787385)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f753c260d30>
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f357303d120>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f74a94e7be0>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f74aa194e20>, 2665.791351018)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f74a94f8520>
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f1352a42140>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f1352ce9120>, 2689.070501321)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f1352a421a0>
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f794d64a080>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f794d705060>, 2743.258670573)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f794d64a0e0>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f36ff78d780>
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7efd98e46440>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:aiomultiprocess.core:aio process 26720 failed
+Traceback (most recent call last):
+  File "/home/eugene/Документы/exp/exp/venv/lib/python3.10/site-packages/aiomultiprocess/core.py", line 143, in run_async
+    result: R = loop.run_until_complete(unit.target(*unit.args, **unit.kwargs))
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/eugene/Документы/exp/exp/main.py", line 36, in run_uvicorn
+    await uvicorn.run(app, host='127.0.0.1', port=7076, reload=True, workers=3)
+  File "/home/eugene/Документы/exp/exp/venv/lib/python3.10/site-packages/uvicorn/main.py", line 578, in run
+    sys.exit(1)
+SystemExit: 1
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f4bbeb078b0>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f4bbef1a800>, 4727.812261526)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f4bbeb2c040>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:aiomultiprocess.core:aio process 26870 failed
+Traceback (most recent call last):
+  File "/home/eugene/Документы/exp/exp/venv/lib/python3.10/site-packages/aiomultiprocess/core.py", line 143, in run_async
+    result: R = loop.run_until_complete(unit.target(*unit.args, **unit.kwargs))
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/eugene/Документы/exp/exp/main.py", line 36, in run_uvicorn
+    await uvicorn.run(app, host='127.0.0.1', port=8080, reload=True, workers=3)
+  File "/home/eugene/Документы/exp/exp/venv/lib/python3.10/site-packages/uvicorn/main.py", line 578, in run
+    sys.exit(1)
+SystemExit: 1
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f9f87d03820>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f9f8811a8c0>, 4751.464064604)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f9f87d03f70>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:aiomultiprocess.core:aio process 27118 failed
+Traceback (most recent call last):
+  File "/home/eugene/Документы/exp/exp/venv/lib/python3.10/site-packages/aiomultiprocess/core.py", line 143, in run_async
+    result: R = loop.run_until_complete(unit.target(*unit.args, **unit.kwargs))
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/eugene/Документы/exp/exp/main.py", line 36, in run_uvicorn
+    await uvicorn.run("main:app", host='127.0.0.1', port=8080, reload=True, workers=3)
+TypeError: object NoneType can't be used in 'await' expression
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f83dcec38e0>
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+DEBUG:asyncio:Using selector: EpollSelector
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTTRCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCUSDT: APIError(code=-1121): Invalid symbol.
+ERROR:binance_async.binance_api:Ошибка при обновлении цены для USDTERCRUB: APIError(code=-1121): Invalid symbol.
+ERROR:aiomultiprocess.core:aio process 27414 failed
+Traceback (most recent call last):
+  File "/home/eugene/Документы/exp/exp/venv/lib/python3.10/site-packages/aiomultiprocess/core.py", line 143, in run_async
+    result: R = loop.run_until_complete(unit.target(*unit.args, **unit.kwargs))
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/home/eugene/Документы/exp/exp/main.py", line 36, in run_uvicorn
+    await uvicorn.run("main:app", host='127.0.0.1', port=8080, reload=True, workers=3)
+TypeError: object NoneType can't be used in 'await' expression
+ERROR:asyncio:Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x7f6a7e8ff880>
+ERROR:asyncio:Unclosed connector
+connections: ['[(<aiohttp.client_proto.ResponseHandler object at 0x7f6a7e8128c0>, 4860.671962732)]']
+connector: <aiohttp.connector.TCPConnector object at 0x7f6a7e8fffd0>

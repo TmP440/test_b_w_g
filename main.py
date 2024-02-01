@@ -1,10 +1,9 @@
 import uvicorn
 import asyncio
-from threading import Thread  # Пока забить
 from aiomultiprocess import Process
 from binance_async import binance_api
 from fastapi import FastAPI
-from routers.exchange import exchange_router_v1
+from routers.exchange.exchange import exchange_router_v1
 
 app = FastAPI()
 app.include_router(exchange_router_v1, prefix="/api/v1", tags=["exchange"])

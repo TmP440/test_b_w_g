@@ -1,6 +1,4 @@
 import aioredis
-import redis as r
-import typing as t
 
 
 async def get_redis() -> aioredis.Redis:

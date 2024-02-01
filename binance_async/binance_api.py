@@ -34,13 +34,10 @@ async def update_info():
                         symbol=pair, requests_params={"timeout": 2}
                     )
                     await cache.set_price(pair, json.dumps(res["price"]))
-                    print(pair, res)
                 except Exception as e:
                     logger.error(f"Ошибка при обновлении цены для {pair}: {e}")
-                    print("Error!")
 
             await redis.close()
             await asyncio.sleep(5)
     except Exception as e:
-        # Замена print на логгирование
         logger.error(f"Ошибка в основном цикле: {e}")

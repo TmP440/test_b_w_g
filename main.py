@@ -2,7 +2,6 @@ import uvicorn
 import asyncio
 from aiomultiprocess import Process
 from kafka_server.producer_binance import binance_api
-from kafka_server.consumers.save_db import process_message
 from fastapi import FastAPI
 from routers.exchange.exchange import exchange_router_v1
 
@@ -19,7 +18,6 @@ async def run_tasks():
     uvicorn_process.start()
 
     await binance_api.update_info()
-    await process_message()
 
     uvicorn_process.join()
 

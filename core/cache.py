@@ -3,7 +3,7 @@ import aioredis
 
 async def get_redis() -> aioredis.Redis:
     redis_db = await aioredis.from_url(
-        "redis://127.0.0.1:6379",
+        "redis://127.0.0.1:6379/1",
         encoding="utf-8",
     )
     return redis_db

@@ -2,6 +2,7 @@ import aioredis
 import fastapi as fa
 from sqlalchemy import orm
 import typing as t
+import json
 from dto.courses import Courses
 from core import cache
 from core.database import get_db
@@ -19,7 +20,8 @@ async def get_symbol_info_v1(
     redis_conn: aioredis.Redis = fa.Depends(cache.get_redis),
     db: orm.Session = fa.Depends(get_db),
 ) -> t.Dict[str, t.Any]:
-    data = {"exchange": "binance"}
+    exchanger_name = await cache.get_exchanger_name()
+    data = {"exchange": str(exchanger_name)}
 
     courses = await exchange_helper.get_info_from_cache(redis_conn, symbol)
 

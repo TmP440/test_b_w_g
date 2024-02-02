@@ -4,5 +4,5 @@ from dto.pair import Pair
 
 
 class Courses(pydantic.BaseModel):
-    exchanger: t.Optional[str] = "binance"
+    exchange: t.Optional[str]
     courses: t.List[Pair]

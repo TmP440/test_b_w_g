@@ -12,9 +12,13 @@ async def get_info_from_cache(redis_conn: aioredis.Redis, symbol: str):
         pairs = await pipe.execute()
 
         for p in pairs[0]:
-            courses.append(
-                {"direction": p, "value": json.loads(await redis_conn.get(p))}
-            )
+            p = str(p.decode("utf-8"))
+            if p == "exchanger":
+                continue
+            value = await redis_conn.get(p)
+            value = str(value.decode("utf-8"))
+            print(value)
+            courses.append({"direction": p, "value": value})
         return courses
 
 

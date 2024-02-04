@@ -10,7 +10,7 @@ app.include_router(exchange_router_v1, prefix="/api/v1", tags=["exchange"])
 
 
 async def run_uvicorn():
-    await uvicorn.run("main:app", host="127.0.0.1", port=5051, reload=True, workers=3)
+    await uvicorn.run("main:app", host="0.0.0.0", port=5051, reload=True, workers=10)
 
 
 async def run_tasks():

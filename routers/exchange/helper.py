@@ -1,5 +1,4 @@
 import aioredis
-import json
 from sqlalchemy import orm
 from routers.exchange.queries import get_all_pairs
 
@@ -17,7 +16,6 @@ async def get_info_from_cache(redis_conn: aioredis.Redis, symbol: str):
                 continue
             value = await redis_conn.get(p)
             value = str(value.decode("utf-8"))
-            print(value)
             courses.append({"direction": p, "value": value})
         return courses
 

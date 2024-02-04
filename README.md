@@ -1,9 +1,29 @@
-Terminal 1:
-- docker-compose up --build
+## Вы можете запустить сервер так:
 
-Terminal 2: 
-- chmod +x start.sh
-- /start.sh
+- `docker-compose up --build`
 
-NEXT (Browser)-->> http://127.0.0.1:5051/api/v1/exchange or http://127.0.0.1:5051/api/v1/exchange?symbol={symbol}
-Where symbol can be the pair in [BTCUSDT, BTCRUB, ETHUSDT, ETHRUB, USDTTRCUSDT, USDTTRCRUB, USDTERCUSDT, USDTERCRUB]
+## Далее в браузере:
+
+- `http://0.0.0.0:5051/api/v1/exchange`
+
+ИЛИ
+
+- `http://127.0.0.1:5051/api/v1/exchange?symbol={symbol}`
+
+## swagger:
+- `http://0.0.0.0:5051/docs`
+
+### Где symbol может быть один из:
+
+- `BTCUSDT`
+- `BTCRUB`
+- `ETHUSDT`
+- `ETHRUB`
+- `USDTTRCUSDT`
+- `USDTTRCRUB`
+- `USDTERCUSDT`
+- `USDTERCRUB`
+
+## Отчет о тестировании:
+
+### Максимальный достигнутый RPS составил 427

@@ -1,13 +1,13 @@
 import aioredis
 import json
 
-import config
+from config import redis_host, redis_port
 from core.logs import log
 
 
 async def get_redis() -> aioredis.Redis:
     redis_db = await aioredis.from_url(
-        "redis://127.0.0.1:6379/1",
+        f"redis://{redis_host}:{redis_port}/1",
         encoding="utf-8",
     )
     return redis_db

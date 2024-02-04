@@ -7,8 +7,15 @@ from binance.client import AsyncClient
 from core import cache
 from nats_server.tasks import save_db
 from core.logs import log
-import config
-from routers.exchange import exchange
+from config import (
+    nats_host,
+    nats_port,
+    nats_subject,
+    API_KEY,
+    SECRET_KEY,
+    convert_pairs_to_CG_syntax,
+    COIN_PAIRS,
+)
 
 logging.basicConfig(filename="app.log", level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -24,8 +31,8 @@ async def get_pair_info(pair: str, client=None):
         log.info("Binance is not active")
         try:
             ids, vs_currencies = (
-                config.convert_pairs_to_CG_syntax[pair]["id"],
-                config.convert_pairs_to_CG_syntax[pair]["currencies"],
+                convert_pairs_to_CG_syntax[pair]["id"],
+                convert_pairs_to_CG_syntax[pair]["currencies"],
             )
             base_url = "https://api.coingecko.com/api/v3/simple/price"
             params = {
@@ -47,14 +54,14 @@ async def get_pair_info(pair: str, client=None):
 
 async def update_info():
     try:
-        client = await AsyncClient.create(config.API_KEY, config.SECRET_KEY)
+        client = await AsyncClient.create(API_KEY, SECRET_KEY)
         nc = NATS()
-        await nc.connect(servers=[config.nats_url])
-        sub1 = await nc.subscribe(config.nats_subject, cb=save_db.message_handler)
-        sub2 = await nc.subscribe(config.nats_subject, cb=cache.message_handler)
+        await nc.connect(servers=[nats_host + ":" + nats_port])
+        sub1 = await nc.subscribe(nats_subject, cb=save_db.message_handler)
+        sub2 = await nc.subscribe(nats_subject, cb=cache.message_handler)
         log.info(f"NATS, Subscribers, BinanceClient were starting")
         while True:
-            for pair in config.COIN_PAIRS:
+            for pair in COIN_PAIRS:
                 try:
                     res = await get_pair_info(pair, client)
                     price = json.dumps(float(res["price"]))

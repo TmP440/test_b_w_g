@@ -2,7 +2,6 @@ import aioredis
 import fastapi as fa
 from sqlalchemy import orm
 import typing as t
-import json
 from dto.courses import Courses
 from core import cache
 from core.database import get_db

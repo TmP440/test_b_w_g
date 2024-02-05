@@ -10,5 +10,5 @@ class Pairs(Base):
         unique=True,
     )
     price = sa.Column(
-        sa.Float(5),
+        sa.Numeric(precision=20, scale=10)
     )

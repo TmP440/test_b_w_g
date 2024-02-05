@@ -11,11 +11,11 @@ async def get_info_from_cache(redis_conn: aioredis.Redis, symbol: str):
         pairs = await pipe.execute()
 
         for p in pairs[0]:
-            p = str(p.decode("utf-8"))
+            p = p.decode("utf-8")
             if p == "exchanger":
                 continue
             value = await redis_conn.get(p)
-            value = str(value.decode("utf-8"))
+            value = value.decode("utf-8")
             courses.append({"direction": p, "value": value})
         return courses
 

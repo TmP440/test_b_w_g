@@ -1,32 +1,29 @@
-pg_host = "postgres-docker"
-pg_user = "postgres"
-pg_password = "qwerty"
-db_name = "test_b_w"
-pg_port = 5432
-convert_pairs_to_CG_syntax = {
-    "BTCUSDT": {"id": "bitcoin", "currencies": "usd"},
-    "BTCRUB": {"id": "bitcoin", "currencies": "rub"},
-    "ETHUSDT": {"id": "ethereum", "currencies": "usd"},
-    "ETHRUB": {"id": "ethereum", "currencies": "rub"},
-    "USDTTRCUSDT": {"id": "tether", "currencies": "usd"},
-    "USDTTRCRUB": {"id": "tether", "currencies": "rub"},
-    "USDTERCUSDT": {"id": "tether", "currencies": "usd"},
-    "USDTERCRUB": {"id": "tether", "currencies": "rub"},
-}
-COIN_PAIRS = [
-    "BTCUSDT",
-    "BTCRUB",
-    "ETHUSDT",
-    "ETHRUB",
-    "USDTTRCUSDT",
-    "USDTTRCRUB",
-    "USDTERCUSDT",
-    "USDTERCRUB",
-]
-API_KEY = "j4R4t82xbWMl1DYVViKTcQV72T6ncll2AThtxW5P5PbsWNjsuJDEzdsCWYbURu4B"
-SECRET_KEY = "8lTDhpCsmYH3xzXlgXhDMFaU7lzDNPJpt9Jzv71y3plMCgLEoSceiRYR6ycqjgaq"
-nats_subject = "update_price"
-nats_host = "nats://nats-docker"
-nats_port = "4222"
-redis_host = "redis-docker"
-redis_port = "6379"
+from pydantic_settings import BaseSettings, SettingsConfigDict
+import typing
+
+
+class Settings(BaseSettings):
+
+    def __getattr__(self, item):
+        return self.__getattribute__(item)
+
+    pg_host: str
+    pg_user: str
+    pg_password: str
+    db_name: str
+    pg_port: int
+    convert_pairs_to_CG_syntax: typing.Dict[str, typing.Dict[str, str]]
+    coin_pairs: typing.List[str]
+    nats_subject: str
+    nats_host: str
+    nats_port: str
+    redis_host: str
+    redis_port: int
+    wss_binance: str
+    coingeko_url: str
+
+    class Config:
+        env_file = ".env"
+
+
+settings = Settings()

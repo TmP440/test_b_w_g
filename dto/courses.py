@@ -1,8 +1,8 @@
 import pydantic
-import typing as t
+import typing
 from dto.pair import Pair
 
 
 class Courses(pydantic.BaseModel):
-    exchange: t.Optional[str]
-    courses: t.List[Pair]
+    exchange: typing.Optional[str]
+    courses: typing.List[Pair]

@@ -1,7 +1,7 @@
 import uvicorn
 import asyncio
 from aiomultiprocess import Process
-from nats_server.producer_binance import binance_api
+from web_tools.binance_socket import update_info
 from fastapi import FastAPI
 from routers.exchange.exchange import exchange_router_v1
 
@@ -17,7 +17,7 @@ async def run_tasks():
     uvicorn_process = Process(target=run_uvicorn)
     uvicorn_process.start()
 
-    await binance_api.update_info()
+    await update_info()
 
     uvicorn_process.join()
 

@@ -3,10 +3,12 @@ import traceback
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.asyncio import AsyncSession, create_async_engine
-from config import pg_host, pg_user, pg_password, db_name, pg_port
+from config import settings
 
-DB_URL = f"postgresql+asyncpg://{pg_user}:{pg_password}@{pg_host}:{pg_port}/{db_name}"
-engine = create_async_engine(DB_URL, pool_pre_ping=True, echo=False)
+DB_URL = f"postgresql+asyncpg://{settings.pg_user}:{settings.pg_password}@{settings.pg_host}:{settings.pg_port}/{settings.db_name}"
+engine = create_async_engine(
+    DB_URL, pool_pre_ping=True, echo=False, pool_size=10, max_overflow=10
+)
 
 Base = declarative_base()
 

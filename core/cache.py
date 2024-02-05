@@ -1,13 +1,12 @@
 import aioredis
 import json
-
-from config import redis_host, redis_port
+from config import settings
 from core.logs import log
 
 
 async def get_redis() -> aioredis.Redis:
     redis_db = await aioredis.from_url(
-        f"redis://{redis_host}:{redis_port}/1",
+        f"redis://{settings.redis_host}:{settings.redis_port}/1",
         encoding="utf-8",
     )
     return redis_db
@@ -17,7 +16,7 @@ async def close_redis(redis: aioredis.Redis) -> None:
     await redis.close()
 
 
-async def set_value(symbol: str, value: str) -> None:
+async def set_value(symbol: str, value: float) -> None:
     redis = await get_redis()
     try:
         await redis.set(symbol, value)

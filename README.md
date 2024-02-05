@@ -19,10 +19,6 @@
 - `BTCRUB`
 - `ETHUSDT`
 - `ETHRUB`
-- `USDTTRCUSDT`
-- `USDTTRCRUB`
-- `USDTERCUSDT`
-- `USDTERCRUB`
 
 ## Отчет о тестировании:
 

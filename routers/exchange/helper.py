@@ -20,9 +20,11 @@ async def get_info_from_cache(redis_conn: aioredis.Redis, symbol: str):
         return courses
 
 
-async def storing_info_in_cache(symbol: str, db: orm.Session):
+async def storing_info_in_cache(
+    symbol: str,
+):
     courses = []
-    db_data = get_all_pairs(symbol, db)
+    db_data = await get_all_pairs(symbol)
 
     for db_entry in db_data:
         courses.append({"direction": db_entry.symbol, "value": db_entry.price})

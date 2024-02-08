@@ -46,5 +46,42 @@ services:
         retries: 5
         start_period: 10s
 
+  # InfluxDB service
+  influxdb-docker:
+    image: influxdb:latest
+    container_name: influxdb
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=user
+      - DOCKER_INFLUXDB_INIT_PASSWORD=password
+      - DOCKER_INFLUXDB_INIT_ORG=b_w_g
+      - DOCKER_INFLUXDB_INIT_BUCKET=alert_metrics
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=${INFLUX_TOKEN}
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb-data:/var/lib/influxdb
+    healthcheck:
+      test: [ "CMD", "curl", "localhost:8086/ping" ]
+      interval: 1m
+      timeout: 10s
+      retries: 5
+
+  # Grafana service
+  grafana-docker:
+    image: grafana/grafana:latest
+    container_name: grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin_password
+    ports:
+      - "3000:3000"
+    depends_on:
+      - influxdb-docker
+    volumes:
+      - grafana-data:/var/lib/grafana
+
 volumes:
       postgres-data:
+      influxdb-data:
+      grafana-data:
+

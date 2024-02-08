@@ -3,7 +3,6 @@ import typing
 
 
 class Settings(BaseSettings):
-
     def __getattr__(self, item):
         return self.__getattribute__(item)
 
@@ -21,6 +20,9 @@ class Settings(BaseSettings):
     redis_port: int
     wss_binance: str
     coingeko_url: str
+    # rabbitmq_settings: typing.Dict[str, str]
+    influx_settings: typing.Dict[str, str | int]
+    influx_token: str
 
     class Config:
         env_file = ".env"

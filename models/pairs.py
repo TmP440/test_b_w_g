@@ -9,6 +9,4 @@ class Pairs(Base):
         primary_key=True,
         unique=True,
     )
-    price = sa.Column(
-        sa.Numeric(precision=20, scale=10)
-    )
+    price = sa.Column(sa.Numeric(precision=20, scale=10))
